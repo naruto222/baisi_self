@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		F0E3DF4F1C97F30600196E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF4E1C97F30600196E44 /* main.m */; };
 		F0E3DF521C97F30600196E44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF511C97F30600196E44 /* AppDelegate.m */; };
-		F0E3DF551C97F30600196E44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF541C97F30600196E44 /* ViewController.m */; };
-		F0E3DF581C97F30600196E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E3DF561C97F30600196E44 /* Main.storyboard */; };
 		F0E3DF5A1C97F30600196E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E3DF591C97F30600196E44 /* Assets.xcassets */; };
 		F0E3DF5D1C97F30600196E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E3DF5B1C97F30600196E44 /* LaunchScreen.storyboard */; };
 		F0E3DF681C97F30600196E44 /* WonderSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF671C97F30600196E44 /* WonderSolutionTests.m */; };
 		F0E3DF731C97F30600196E44 /* WonderSolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF721C97F30600196E44 /* WonderSolutionUITests.m */; };
+		F0E3DF821C97F4CF00196E44 /* FDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF811C97F4CF00196E44 /* FDTabBarController.m */; };
+		F0E3DF851C97F53400196E44 /* FDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF841C97F53400196E44 /* FDNavigationController.m */; };
+		F0E3DF881C97F57B00196E44 /* FDEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF871C97F57B00196E44 /* FDEssenceViewController.m */; };
+		F0E3DF8B1C97F58900196E44 /* FDNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF8A1C97F58900196E44 /* FDNewViewController.m */; };
+		F0E3DF8E1C97F59E00196E44 /* FDAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF8D1C97F59E00196E44 /* FDAttentionViewController.m */; };
+		F0E3DF911C97F5AB00196E44 /* FDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF901C97F5AB00196E44 /* FDMeViewController.m */; };
+		F0E3DF941C97F60F00196E44 /* FDTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF931C97F60F00196E44 /* FDTopicViewController.m */; };
+		F0E3DF971C98002400196E44 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E3DF961C98002400196E44 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +45,6 @@
 		F0E3DF4E1C97F30600196E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0E3DF501C97F30600196E44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0E3DF511C97F30600196E44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0E3DF531C97F30600196E44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0E3DF541C97F30600196E44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F0E3DF571C97F30600196E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0E3DF591C97F30600196E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E3DF5C1C97F30600196E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E3DF5E1C97F30600196E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,23 @@
 		F0E3DF6E1C97F30600196E44 /* WonderSolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderSolutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E3DF721C97F30600196E44 /* WonderSolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderSolutionUITests.m; sourceTree = "<group>"; };
 		F0E3DF741C97F30600196E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E3DF801C97F4CF00196E44 /* FDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTabBarController.h; sourceTree = "<group>"; };
+		F0E3DF811C97F4CF00196E44 /* FDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTabBarController.m; sourceTree = "<group>"; };
+		F0E3DF831C97F53400196E44 /* FDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDNavigationController.h; sourceTree = "<group>"; };
+		F0E3DF841C97F53400196E44 /* FDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDNavigationController.m; sourceTree = "<group>"; };
+		F0E3DF861C97F57B00196E44 /* FDEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEssenceViewController.h; sourceTree = "<group>"; };
+		F0E3DF871C97F57B00196E44 /* FDEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDEssenceViewController.m; sourceTree = "<group>"; };
+		F0E3DF891C97F58900196E44 /* FDNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDNewViewController.h; sourceTree = "<group>"; };
+		F0E3DF8A1C97F58900196E44 /* FDNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDNewViewController.m; sourceTree = "<group>"; };
+		F0E3DF8C1C97F59E00196E44 /* FDAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAttentionViewController.h; sourceTree = "<group>"; };
+		F0E3DF8D1C97F59E00196E44 /* FDAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAttentionViewController.m; sourceTree = "<group>"; };
+		F0E3DF8F1C97F5AB00196E44 /* FDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDMeViewController.h; sourceTree = "<group>"; };
+		F0E3DF901C97F5AB00196E44 /* FDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDMeViewController.m; sourceTree = "<group>"; };
+		F0E3DF921C97F60F00196E44 /* FDTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTopicViewController.h; sourceTree = "<group>"; };
+		F0E3DF931C97F60F00196E44 /* FDTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTopicViewController.m; sourceTree = "<group>"; };
+		F0E3DF951C98002400196E44 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F0E3DF961C98002400196E44 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F0E3DF981C9807D000196E44 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +123,27 @@
 			children = (
 				F0E3DF501C97F30600196E44 /* AppDelegate.h */,
 				F0E3DF511C97F30600196E44 /* AppDelegate.m */,
-				F0E3DF531C97F30600196E44 /* ViewController.h */,
-				F0E3DF541C97F30600196E44 /* ViewController.m */,
-				F0E3DF561C97F30600196E44 /* Main.storyboard */,
 				F0E3DF591C97F30600196E44 /* Assets.xcassets */,
 				F0E3DF5B1C97F30600196E44 /* LaunchScreen.storyboard */,
 				F0E3DF5E1C97F30600196E44 /* Info.plist */,
 				F0E3DF4D1C97F30600196E44 /* Supporting Files */,
+				F0E3DF801C97F4CF00196E44 /* FDTabBarController.h */,
+				F0E3DF811C97F4CF00196E44 /* FDTabBarController.m */,
+				F0E3DF831C97F53400196E44 /* FDNavigationController.h */,
+				F0E3DF841C97F53400196E44 /* FDNavigationController.m */,
+				F0E3DF861C97F57B00196E44 /* FDEssenceViewController.h */,
+				F0E3DF871C97F57B00196E44 /* FDEssenceViewController.m */,
+				F0E3DF891C97F58900196E44 /* FDNewViewController.h */,
+				F0E3DF8A1C97F58900196E44 /* FDNewViewController.m */,
+				F0E3DF8C1C97F59E00196E44 /* FDAttentionViewController.h */,
+				F0E3DF8D1C97F59E00196E44 /* FDAttentionViewController.m */,
+				F0E3DF8F1C97F5AB00196E44 /* FDMeViewController.h */,
+				F0E3DF901C97F5AB00196E44 /* FDMeViewController.m */,
+				F0E3DF921C97F60F00196E44 /* FDTopicViewController.h */,
+				F0E3DF931C97F60F00196E44 /* FDTopicViewController.m */,
+				F0E3DF951C98002400196E44 /* UIView+Extension.h */,
+				F0E3DF961C98002400196E44 /* UIView+Extension.m */,
+				F0E3DF981C9807D000196E44 /* PrefixHeader.pch */,
 			);
 			path = WonderSolution;
 			sourceTree = "<group>";
@@ -202,6 +236,7 @@
 		F0E3DF421C97F30600196E44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = gong;
 				TargetAttributes = {
@@ -245,7 +280,6 @@
 			files = (
 				F0E3DF5D1C97F30600196E44 /* LaunchScreen.storyboard in Resources */,
 				F0E3DF5A1C97F30600196E44 /* Assets.xcassets in Resources */,
-				F0E3DF581C97F30600196E44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E3DF551C97F30600196E44 /* ViewController.m in Sources */,
+				F0E3DF971C98002400196E44 /* UIView+Extension.m in Sources */,
+				F0E3DF881C97F57B00196E44 /* FDEssenceViewController.m in Sources */,
+				F0E3DF8B1C97F58900196E44 /* FDNewViewController.m in Sources */,
+				F0E3DF911C97F5AB00196E44 /* FDMeViewController.m in Sources */,
+				F0E3DF821C97F4CF00196E44 /* FDTabBarController.m in Sources */,
+				F0E3DF851C97F53400196E44 /* FDNavigationController.m in Sources */,
 				F0E3DF521C97F30600196E44 /* AppDelegate.m in Sources */,
 				F0E3DF4F1C97F30600196E44 /* main.m in Sources */,
+				F0E3DF941C97F60F00196E44 /* FDTopicViewController.m in Sources */,
+				F0E3DF8E1C97F59E00196E44 /* FDAttentionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F0E3DF561C97F30600196E44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0E3DF571C97F30600196E44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0E3DF5B1C97F30600196E44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WonderSolution/PrefixHeader.pch";
 				INFOPLIST_FILE = WonderSolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gong.WonderSolution;
@@ -422,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WonderSolution/PrefixHeader.pch";
 				INFOPLIST_FILE = WonderSolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gong.WonderSolution;
